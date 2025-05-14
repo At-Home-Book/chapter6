@@ -1,4 +1,4 @@
-# 簡単な2自由度ロボットアームのモデル（改訂第2版）
+# 簡単な2自由度ロボットアームのモデル
 
 ## 概要
 
@@ -8,9 +8,9 @@
 
 ## インストール
 
-- ROSのワークスペースを`~/airobot_ws`とする．
+- ROSのワークスペースを`~/athome_ws`とする．
   ```
-  cd ~/airobot_ws/src
+  cd ~/athome_ws/src
   ```
 
 - このパッケージを含むリポジトリを入手
@@ -21,7 +21,7 @@
 - パッケージのビルド
   ```
   sudo apt install ros-humble-joint-state-publisher-gui
-  cd ~/airobot_ws
+  cd ~/athome_ws
   colcon build --packages-select simple_arm_description
   ```
 
@@ -42,6 +42,7 @@
 
 ## 履歴
 
+- 2025-05-14: @Home本のために説明変更
 - 2023-10-13: ROS Humbleで動作確認
 - 2022-08-23: ライセンス・ドキュメントの整備
 

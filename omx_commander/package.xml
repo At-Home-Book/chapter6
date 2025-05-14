@@ -3,9 +3,9 @@
 <package format="3">
   <name>omx_commander</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="masutani@isc.osakac.ac.jp">masutani</maintainer>
-  <license>Apache-2.0</license>
+  <description>Commander for open_manipulator</description>
+  <maintainer email="at-home-book@googlegroups.com">MASUTANI Yasuhiro</maintainer>
+  <license>Apache License 2.0</license>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

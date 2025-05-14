@@ -13,10 +13,10 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='masutani',
-    maintainer_email='masutani@isc.osakac.ac.jp',
-    description='TODO: Package description',
-    license='Apache-2.0',
+    maintainer='MASUTANI Yasuhiro',
+    maintainer_email='at-home-book@googlegroups.com',
+    description='Commander for open_manipulator',
+    license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
