@@ -95,6 +95,7 @@ class Commander(Node):
         return self.moveit2.wait_until_executed()
 
     def get_frame_position(self, frame_id):
+        rclpy.spin_once(self)
         try:
             when = rclpy.time.Time()
             trans = self.tf_buffer.lookup_transform(
